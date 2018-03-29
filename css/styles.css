@@ -3,9 +3,7 @@
     padding: 20px;
     color: green;
 }
-.header{
-  background-color: #ffcccc;
-}
+
 .row-content {
     margin:0px auto;
     padding: 50px 30px 50px 10px;
@@ -29,4 +27,12 @@ address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+     background-color: #512DA8;
 }
