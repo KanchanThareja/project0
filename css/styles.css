@@ -1,12 +1,14 @@
 .row-header{
-    margin:0px auto;
-    padding:0px;
+    margin:10px auto;
+    padding: 20px;
     color: green;
 }
-
+.header{
+  background-color: #ffcccc;
+}
 .row-content {
     margin:0px auto;
-    padding: 50px 20px 50px 10px;
+    padding: 50px 30px 50px 10px;
     border-bottom: 1px ridge;
     min-height:400px;
 }
