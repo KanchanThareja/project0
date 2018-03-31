@@ -37,6 +37,7 @@
                 <div class="col-12 col-sm-8">
                     <h1>Ristorante con Fusion</h1>
                     <p class="col-sm pull-sm-4 col-md pull-md-3">We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                    <br><br><input type="submit" class="form-control col-md-4" id="Reserve" name="submit" placeholder="submit" value="Reserve a table" style="background-color:#f7c17e">
                 </div>
                   <div class="col col-sm align-self-center">
                    <img src="img/logo.png" class="img-fluid">
@@ -83,9 +84,34 @@
                     </p>
                </div>
            </div>
-
     </div>
-
+  <div class="row row-content align-items-center">
+           <div class="card col-8">
+             <h3 class="card-header bg-warning text-white">Reserve a table</h3>
+             <div class="card-block">
+               <form>
+                 <div class="form-group row">
+                    Number of Guests
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value="1">1</input>
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value"2">2</input>
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value"3">3</input>
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value="4">4</input>
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value="5">5</input>
+                        <input type="radio" style="height: 20px" class="form-control col-md-1" name="1" value="6" checked>6</input>
+                 </div>
+                 <div class="form-group row">
+                   <label for="date" class="col-md-2 col-form-label">Date and time</label>
+                   <input type="date"class="form-control col-md-3" id="date" name="date" placeholder="date">
+                   <input type="time" class="form-control col-md-3" id="time" name="time" placeholder="time">
+                  </div>
+                  <div class="form-group row col-8 align-self-center">
+                    <div class="col-md-5"></div>
+                    <input type="submit" class="form-control col-md-4" id="Reserve" name="submit" placeholder="submit" value="Reserve" style="background-color:#f7c17e">
+                  </div>
+               </form>
+             </div>
+           </div>
+    </div>
     <footer class="footer" id="footer">
         <div class="container">
             <div class="row">
