@@ -1,7 +1,7 @@
 .row-header{
     margin:10px auto;
     padding: 20px;
-    color: green;
+    color: floralwhite;
 }
 
 .row-content {
@@ -19,7 +19,7 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background: #dec4af;
     color:floralwhite;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 .navbar-inverse {
-     background-color: #512DA8;
+     background-color:#362a21;
 }
 .tab-content{
    border-left: 1px solid #ddd;
