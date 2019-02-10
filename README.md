@@ -1,4 +1,4 @@
-# project0
+# Restaurant Website
 An interactive website for "Ristorante con Fusion" in HongKong.
 
 #consists of interconnected layers
